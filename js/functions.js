@@ -43,6 +43,7 @@ function disableButtonsWheGameIsWon(player){
     }
     display.textContent=player +"won the game"
 }
+//this is a function used to show a draw between the two players
 function checkDraw (){
 for (let button of buttons){
     if (button.textContent === ""){
